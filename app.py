@@ -14,8 +14,8 @@ def main():
 
     # Paths to the specific files
     files = [
-        "/Users/janhoegh/Desktop/streamlit_download_site/Download_files/Ford_The_Changing_Cleavage_Politics_of_Western_Europe.pdf",
-        "/Users/janhoegh/Desktop/streamlit_download_site/Download_files/Ryan_and_Ehlinger_Issue_Publics.pdf"
+        "Ryan_and_Ehlinger_Issue_Publics.pdf",
+        "Ford_The_Changing_Cleavage_Politics_of_Western_Europe.pdf"
     ]
 
     st.write(
@@ -41,7 +41,7 @@ def main():
         'Download disse mødenotater for at prøve din GPT')
 
     # Additional file for download
-    additional_file_path = "/Users/janhoegh/Desktop/streamlit_download_site/Download_files/ClosedAI_mødenotater_mock_up.docx"
+    additional_file_path = "ClosedAI_mødenotater_mock_up.docx"
     if os.path.exists(additional_file_path):
         additional_file_name = os.path.basename(additional_file_path)
         additional_button_label = f"Klik her for at downloade \n{additional_file_name}"
