@@ -6,7 +6,7 @@ def main():
     st.title("AI workshop SJK")
 
     # Display the image
-    image_path = "/Users/janhoegh/Desktop/streamlit_download_site/SJK_logo.png"
+    image_path = "SJK_logo.png"
     if os.path.exists(image_path):
         st.image(image_path, width=250)
     else:
