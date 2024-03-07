@@ -37,7 +37,8 @@ def main():
     else:
         st.error("tech file not found!")
     
-    
+    st.markdown("_______________________")
+
     
     st.write(
         'Download disse to filer og find ud af hvordan Fords fund af nye politiske skillelinjer kan bruges til at forstå Ryan og Ehlingers koncept "Issue Publics"')
