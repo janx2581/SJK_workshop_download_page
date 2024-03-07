@@ -14,10 +14,31 @@ def main():
 
     # Paths to the specific files
     files = [
-        "Techekspertgruppens anbefalinger om udvikling af kunstig intelligens.pdf",
+        "Ryan_and_Ehlinger_Issue_Publics.pdf",
         "Ford_The_Changing_Cleavage_Politics_of_Western_Europe.pdf"
     ]
 
+    
+    st.write(
+        'Download techekspertgruppens anbefalinger og find ud af hvilke temaer, de har opbygget deres rapport omkring')
+
+    # Additional file for download
+    tech_file_path = "Techekspertgruppens anbefalinger om udvikling af kunstig intelligens.pdf"
+    if os.path.exists(tech_file_path):
+        additional_file_name = os.path.basename(tech_file_path)
+        tech_button_label = f"Klik her for at downloade \n{tech_file_name}"
+        with open(tech_file_path, "rb") as tech_file:
+            st.download_button(
+                label=tech_button_label,
+                data=tech_file,
+                file_name=tech_file_name,
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )
+    else:
+        st.error("tech file not found!")
+    
+    
+    
     st.write(
         'Download disse to filer og find ud af hvordan Fords fund af nye politiske skillelinjer kan bruges til at forstå Ryan og Ehlingers koncept "Issue Publics"')
 
