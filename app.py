@@ -18,7 +18,7 @@ def main():
         "Ford_The_Changing_Cleavage_Politics_of_Western_Europe.pdf"
     ]
 
-    
+    """
     st.write(
         'Download techekspertgruppens anbefalinger og find ud af hvilke temaer, de har opbygget deres rapport omkring')
 
@@ -38,7 +38,7 @@ def main():
         st.error("tech file not found!")
     
     st.markdown("_______________________")
-
+    """
     
     st.write(
         'Download disse to filer og find ud af hvordan Fords fund af nye politiske skillelinjer kan bruges til at forstå Ryan og Ehlingers koncept "Issue Publics"')
