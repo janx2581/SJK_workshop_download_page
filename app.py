@@ -56,7 +56,7 @@ def main():
         st.error("Additional file not found!")
 
     st.markdown("_______________________")
-    st.markdown("_Jan Høegh Consulting_")
+    st.markdown("_Høegh Consulting_")
 
 
 if __name__ == "__main__":
