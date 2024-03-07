@@ -25,7 +25,7 @@ def main():
     # Additional file for download
     tech_file_path = "Techekspertgruppens anbefalinger om udvikling af kunstig intelligens.pdf"
     if os.path.exists(tech_file_path):
-        additional_file_name = os.path.basename(tech_file_path)
+        tech_file_name = os.path.basename(tech_file_path)
         tech_button_label = f"Klik her for at downloade \n{tech_file_name}"
         with open(tech_file_path, "rb") as tech_file:
             st.download_button(
