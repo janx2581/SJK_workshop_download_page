@@ -3,7 +3,7 @@ import os
 
 
 def main():
-    st.title("AI workshop SJ-K")
+    st.title("AI workshop Ebbefos Fonden")
 
     # Display the image
     image_path = "SJK_logo.png"
