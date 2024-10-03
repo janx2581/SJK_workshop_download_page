@@ -40,7 +40,7 @@ def main():
     st.markdown("_______________________")
 
     st.write(
-        'Download disse mødenotater for at teste din GPT')
+        'Download disse mødenotater for at teste hvordan mødenoter kan struktureres')
 
     # Additional file for download
     additional_file_path = "ClosedAI_mødenotater_mock_up.docx"
