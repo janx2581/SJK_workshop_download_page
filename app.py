@@ -6,7 +6,7 @@ def main():
     st.title("AI workshop Ebbefos Fonden")
 
     # Display the image
-    image_path = "SJK_logo.png"
+    image_path = "Ebbefos-logo-neg-RGB-cropped.svg"
     if os.path.exists(image_path):
         st.image(image_path, width=250)
     else:
