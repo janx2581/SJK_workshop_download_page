@@ -76,6 +76,9 @@ def main():
 
     
     st.markdown("_______________________")
+
+    st.header(
+        'Øvelse 3: Opsummer disse mødenotater til et referat')
     
     st.write(
         'Download disse mødenotater for at teste hvordan mødenoter kan struktureres')
@@ -94,6 +97,41 @@ def main():
             )
     else:
         st.error("Additional file not found!")
+
+    st.markdown('''
+Jeg har nogle ustrukturerede mødenotater, som jeg gerne vil have organiseret i et klart og struktureret format. Formålet er at få en oversigt over, hvem der har sagt hvad, beslutninger, og hvilke action points der skal tages. Jeg vedhæfter mødenotaterne. Gør det derudover klart, hvis der er uoverensstemmelser i mødenotaterne eller hvis du mangler mere information.
+
+Brug nedenstående struktur til at omdanne notaterne:
+
+### Strukturerede Mødenotater:
+
+**Mødedato:** [Indsæt dato]  
+**Deltagere:** [Indsæt navne på deltagere]  
+
+1. **Dagsorden og emner**  
+Kort oversigt over mødeemner og diskussionspunkter.
+
+2. **Uddybning af hvad der blev sagt under hvert punkt**  
+
+3. **Beslutninger**  
+Beslutninger truffet under mødet.
+
+- **Beslutning 1:** [Beskrivelse af beslutningen]  
+- **Beslutning 2:** [Beskrivelse af beslutningen]
+
+4. **Action Points**
+
+| Action Point | Ansvarlig | Deadline | Status |
+|--------------|-----------|----------|--------|
+| [Beskrivelse af action point] | [Navn på ansvarlig] | [Dato] | [Status] |
+| [Beskrivelse af action point] | [Navn på ansvarlig] | [Dato] | [Status] |
+
+5. **Opfølgning**  
+Eventuelle opfølgningspunkter fra tidligere møder eller som er blevet drøftet under dette møde.
+
+6. **Uklarheder og hvor der er behov for mere information**
+''')
+
 
     st.markdown("_______________________")
     st.markdown("_Høegh Consulting_")
