@@ -21,7 +21,10 @@ def main():
     
     
     st.write(
-        'Download disse to filer og find ud af hvordan Fords fund af nye politiske skillelinjer kan bruges til at forstå Ryan og Ehlingers koncept "Issue Publics"')
+        'Download disse to filer og find ud af hvor der er overensstemmelse i perspektiverne i de to tekster')
+
+    st.write(
+        'Eksempel prompt: Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
 
     # Display download buttons for each file
     for file_path in files:
