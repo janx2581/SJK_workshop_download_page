@@ -3,7 +3,7 @@ import os
 
 
 def main():
-    st.title("AI workshop Ebbefos Fonden")
+    st.title("AI workshop Ebbefos Fondesn")
 
     # Display the image
     image_path = "Ebbefos-logo-neg-RGB-cropped.svg"
