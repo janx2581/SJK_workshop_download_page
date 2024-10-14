@@ -39,7 +39,7 @@ def main():
                     mime="application/pdf"
                 )
 
-     st.markdown(
+    st.markdown(
     '**Eksempel prompt:** Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
 
     # Add a small text at the bottom of the page
