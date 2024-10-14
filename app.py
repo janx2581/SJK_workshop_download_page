@@ -68,11 +68,11 @@ def main():
     'Afslut med en opfordring til at tilmelde sig eventet via et link.')
     
     st.markdown(
-    '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv opslaget i en professionel tone med et glimt i øjet"'
+    '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv opslaget i en professionel tone med et glimt i øjet"')
 
 
     st.markdown(
-    '**PRØV AT TILFØJ I ENDNU ET EFTERFØLGENDE PROMPT**: "Tilføj hvordan det stemmer overens med vores arbejde i Ebbefos Fonden. Brug internettet til at lære hvem vi er"'
+    '**PRØV AT TILFØJ I ENDNU ET EFTERFØLGENDE PROMPT**: "Tilføj hvordan det stemmer overens med vores arbejde i Ebbefos Fonden. Brug internettet til at lære hvem vi er"')
 
     
     st.markdown("_______________________")
