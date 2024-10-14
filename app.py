@@ -65,8 +65,7 @@ def main():
     'Dato: 10. december.\n'
     'Sted: Havnegade 23.\n'
     'Tid: 10.00 til 11.00.\n\n'
-    'Afslut med en opfordring til at tilmelde sig eventet via et link.'
-)
+    'Afslut med en opfordring til at tilmelde sig eventet via et link.')
     
     st.markdown(
     '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv opslaget i en professionel tone med et glimt i øjet"'
