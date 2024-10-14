@@ -99,11 +99,13 @@ def main():
         st.error("Additional file not found!")
 
     st.markdown('''
+**EKSEMPEL PROMPT**: 
+
 Jeg har nogle ustrukturerede mødenotater, som jeg gerne vil have organiseret i et klart og struktureret format. Formålet er at få en oversigt over, hvem der har sagt hvad, beslutninger, og hvilke action points der skal tages. Jeg vedhæfter mødenotaterne. Gør det derudover klart, hvis der er uoverensstemmelser i mødenotaterne eller hvis du mangler mere information.
 
 Brug nedenstående struktur til at omdanne notaterne:
 
-### Strukturerede Mødenotater:
+Strukturerede Mødenotater:
 
 **Mødedato:** [Indsæt dato]  
 **Deltagere:** [Indsæt navne på deltagere]  
