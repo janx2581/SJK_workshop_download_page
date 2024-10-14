@@ -14,8 +14,8 @@ def main():
 
     # Paths to the specific files
     files = [
-        "Ryan_and_Ehlinger_Issue_Publics.pdf",
-        "Ford_The_Changing_Cleavage_Politics_of_Western_Europe.pdf"
+        "Søren_Østergaard_interview.pdf",
+        "Trivselskommissionens_kommissorium.pdf"
     ]
 
     
