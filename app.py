@@ -45,6 +45,20 @@ def main():
     # Add a small text at the bottom of the page
     st.markdown("_______________________")
 
+
+    st.header(
+        'Øvelse 2: Skriv linkedin opslag')
+    
+    st.write(
+        'Prøv at få ChatGPT til at skrive et linkedinopslag der minder om jeres tidligere opslag om Rasmus Meyer og jeres tidligere Morgen Talk')
+    st.write(
+        'Link til jeres oplæg: https://www.linkedin.com/posts/ebbefosfonden_%C3%A5rets-sidste-talk-i-ebbefos-fonden-activity-7247492882666864640-4bnS?utm_source=share&utm_medium=member_desktop')
+
+    st.write(
+        'Eksempel prompt: Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
+
+    st.markdown("_______________________")
+    
     st.write(
         'Download disse mødenotater for at teste hvordan mødenoter kan struktureres')
 
