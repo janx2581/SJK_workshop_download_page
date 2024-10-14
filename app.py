@@ -20,6 +20,9 @@ def main():
 
     
     
+    st.header(
+        'Øvelse 1: Analyser tekster')
+    
     st.write(
         'Download disse to filer og find ud af hvor der er overensstemmelse i perspektiverne i de to tekster')
 
