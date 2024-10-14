@@ -55,17 +55,7 @@ def main():
         'Link til jeres oplæg: https://www.linkedin.com/posts/ebbefosfonden_%C3%A5rets-sidste-talk-i-ebbefos-fonden-activity-7247492882666864640-4bnS?utm_source=share&utm_medium=member_desktop')
 
     st.write(
-        'Eksempel prompt: Skriv et LinkedIn-opslag på 120-150 ord, der annoncerer den sidste Morgen Talk i året hos Ebbefos Fonden med Rasmus Meyer, Formand for trivselskommissionen. 
-
-Hovedpunkter fra talerens oplæg: 
-- hvad der skal til for at sikre børn og unge nære relationer og positive fællesskaber
-- hvordan børn og unge, der har begyndende tegn på mistrivsel, opspores tidligt
-- hvordan der kan skabes forudsætningerne for, at alle børn og unge kan udvikle en robusthed og en tro på egen formåen
-- hvordan børn og unges digitale dannelse, sikkerhed og tryghed kan styrkes
-
-Eventdetaljer: Dato: 10. december. Sted: Havnegade 23. Tid: 10.00 til 11.00.
-
-Afslut med en opfordring til at tilmelde sig eventet via et link.')
+        'Eksempel prompt: Skriv et LinkedIn-opslag på 120-150 ord, der annoncerer den sidste Morgen Talk i året hos Ebbefos Fonden med Rasmus Meyer, Formand for trivselskommissionen. Hovedpunkter fra talerens oplæg: - hvad der skal til for at sikre børn og unge nære relationer og positive fællesskaber - hvordan børn og unge, der har begyndende tegn på mistrivsel, opspores tidligt - hvordan der kan skabes forudsætningerne for, at alle børn og unge kan udvikle en robusthed og en tro på egen formåen - hvordan børn og unges digitale dannelse, sikkerhed og tryghed kan styrkes. Eventdetaljer: Dato: 10. december. Sted: Havnegade 23. Tid: 10.00 til 11.00. Afslut med en opfordring til at tilmelde sig eventet via et link.')
 
     st.markdown("_______________________")
     
