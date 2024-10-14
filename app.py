@@ -26,10 +26,6 @@ def main():
     st.write(
         'Download disse to filer og find ud af hvor der er overensstemmelse i perspektiverne i de to tekster')
 
-
-    st.markdown(
-    '**Eksempel prompt:** Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
-
     # Display download buttons for each file
     for file_path in files:
         if os.path.exists(file_path):
@@ -42,6 +38,9 @@ def main():
                     file_name=file_name,
                     mime="application/pdf"
                 )
+
+     st.markdown(
+    '**Eksempel prompt:** Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
 
     # Add a small text at the bottom of the page
     st.markdown("_______________________")
