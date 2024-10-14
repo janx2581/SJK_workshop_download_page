@@ -68,7 +68,12 @@ def main():
     'Afslut med en opfordring til at tilmelde sig eventet via et link.'
 )
     st.write(
-        'prøv at tilføj: 
+        'prøv at tilføj i et efterfølgende prompt: "Skriv opslaget i en professionel tone med et glimt i øjet"')
+
+    st.write(
+        'Prøv at tilføj i et efterfølgende prompt: "Tilføj hvordan det stemmer overens med vores arbejde i Ebbefos Fonden. Brug internettet til at lære hvem vi er"')
+
+
     
     st.markdown("_______________________")
     
