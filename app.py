@@ -14,7 +14,7 @@ def main():
 
     # Paths to the specific files
     files = [
-        "Søren_Østergaard_interview.pdf",
+        "Interview_Søren_Østergaard.pdf",
         "Trivselskommissionens_kommissorium.pdf"
     ]
 
