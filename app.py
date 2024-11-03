@@ -6,7 +6,7 @@ def main():
     st.title("AI workshop Kraft & Partners")
 
     # Display the image
-    image_path = "Ebbefos-logo-neg-RGB-cropped.svg"
+    image_path = "kplogo.png"
     if os.path.exists(image_path):
         st.image(image_path, width=250)
     else:
