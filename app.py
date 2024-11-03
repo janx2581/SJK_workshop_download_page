@@ -15,7 +15,7 @@ def main():
     # Paths to the specific files
     files = [
         "Interview_Søren_Østergaard.pdf",
-        "Trivselskommissionens_kommissorium.pdf"
+        "Vidensmobilisering og vidensbrobygning – en oversigt over modeller og metoder.pdf"
     ]
 
     
