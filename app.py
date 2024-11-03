@@ -6,7 +6,7 @@ def main():
     st.title("AI workshop Kraft & Partners")
 
     # Display the image
-    image_path = "kplogo.png"
+    image_path = "kplogo_white.png"
     if os.path.exists(image_path):
         st.image(image_path, width=250)
     else:
@@ -14,7 +14,7 @@ def main():
 
     # Paths to the specific files
     files = [
-        "Interview_Søren_Østergaard.pdf",
+        "Uddannelse og folkeoplysning 2022 analyse.pdf",
         "Vidensmobilisering og vidensbrobygning – en oversigt over modeller og metoder.pdf"
     ]
 
@@ -24,7 +24,7 @@ def main():
         'Øvelse 1: Analyser tekster')
     
     st.write(
-        'Download disse to filer og find ud af hvor der er overensstemmelse i perspektiverne i de to tekster')
+        'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
 
     # Display download buttons for each file
     for file_path in files:
@@ -40,39 +40,41 @@ def main():
                 )
 
     st.markdown(
-    '**Eksempel prompt:** Vi arbejder i Ebbefos Fonden, hvis mission er at være et modtræk til mistrivsel. Visionen er et samfund, hvor alle trives og har mulighed for at udvikle sig og indgå i positive fællesskaber. Analyser hvordan vores seneste interview stemmer overens med trivselskommissionens kommisorium. Jeg vedhæfter begge to')
+    '**Eksempel prompt:** Opsummer denne artikel med fokus på fonde (indsæt artiklen)')
+
+    st.markdown(
+    '**Næste forespørgsel:** Opsummer denne analyse (indsæt analysen)')
+
+    st.markdown(
+    '**Næste forespørgsel:** Hvordan kan analysen forstås ud fra de fire modeller præsenteret i artiklen?')
 
     # Add a small text at the bottom of the page
     st.markdown("_______________________")
 
 
     st.header(
-        'Øvelse 2: Skriv linkedin opslag')
+        'Øvelse 2: Skriv kronik')
     
     st.write(
-        'Prøv at få ChatGPT til at skrive et linkedinopslag der minder om jeres tidligere opslag om Rasmus Meyer og jeres tidligere Morgen Talk')
+        'Få ChatGPT til at skrive en kronik baseret på Fondsanalysen 2024')
     st.write(
-        'Link til jeres oplæg: https://www.linkedin.com/posts/ebbefosfonden_%C3%A5rets-sidste-talk-i-ebbefos-fonden-activity-7247492882666864640-4bnS?utm_source=share&utm_medium=member_desktop')
+        'Link til Fondsanalysen 2024: https://www.kraft-partners.dk/den-danske-fondsanalyse-2024/')
+    st.write(
+        'Link til en tidligere kronik: https://www.altinget.dk/civilsamfund/artikel/markus-bjoern-kraft-transparens-er-afgoerende-for-de-danske-fonde')
 
     st.markdown(
-    '**Eksempel prompt:** Skriv et LinkedIn-opslag på 120-150 ord, der annoncerer den sidste Morgen Talk i året hos Ebbefos Fonden med Rasmus Meyer, Formand for trivselskommissionen. \n\n'
-    'Hovedpunkter fra talerens oplæg: \n'
-    '- hvad der skal til for at sikre børn og unge nære relationer og positive fællesskaber\n'
-    '- hvordan børn og unge, der har begyndende tegn på mistrivsel, opspores tidligt\n'
-    '- hvordan der kan skabes forudsætningerne for, at alle børn og unge kan udvikle en robusthed og en tro på egen formåen\n'
-    '- hvordan børn og unges digitale dannelse, sikkerhed og tryghed kan styrkes\n\n'
-    'Eventdetaljer: \n'
-    'Dato: 10. december.\n'
-    'Sted: Havnegade 23.\n'
-    'Tid: 10.00 til 11.00.\n\n'
-    'Afslut med en opfordring til at tilmelde sig eventet via et link.')
+    '**Eksempel prompt:** Jeg arbejder i Kraft & Partners og skal skrive en kronik til Altinget, hvor jeg diskuterer fundene for Den Danske Fondsanalyse 2024. \n\n'
+    'Giv mig 5 hovedpointer jeg kan benytte. Giv mig derudover 3 sætninger til hver pointe, så jeg får hovedpointerne igennem på en intelligent måde \n'
+    'Det her hvad vi skriver om i Fondsanalysen:\n'
+    '(Indsæt beskrivelsen fra hjemmesiden)'
+    ')
     
     st.markdown(
-    '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv opslaget i en professionel tone med et glimt i øjet"')
+    '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv det til en kronik. Jeg vedhæfter en tidligere kronik, så du ved hvilken tone-of-voice jeg vil have (Indsæt kronik)"')
 
 
     st.markdown(
-    '**PRØV AT TILFØJ I ENDNU ET EFTERFØLGENDE PROMPT**: "Tilføj hvordan det stemmer overens med vores arbejde i Ebbefos Fonden. Brug internettet til at lære hvem vi er"')
+    '**PRØV AT TILFØJ I ENDNU ET EFTERFØLGENDE PROMPT**: " Lad der være lidt mere glimt i øjet i tonen i kronikken"')
 
     
     st.markdown("_______________________")
