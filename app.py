@@ -66,8 +66,7 @@ def main():
     '**Eksempel prompt:** Jeg arbejder i Kraft & Partners og skal skrive en kronik til Altinget, hvor jeg diskuterer fundene for Den Danske Fondsanalyse 2024. \n\n'
     'Giv mig 5 hovedpointer jeg kan benytte. Giv mig derudover 3 sætninger til hver pointe, så jeg får hovedpointerne igennem på en intelligent måde \n'
     'Det her hvad vi skriver om i Fondsanalysen:\n'
-    '(Indsæt beskrivelsen fra hjemmesiden)'
-    ')
+    '(Indsæt beskrivelsen fra hjemmesiden)')
     
     st.markdown(
     '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv det til en kronik. Jeg vedhæfter en tidligere kronik, så du ved hvilken tone-of-voice jeg vil have (Indsæt kronik)"')
