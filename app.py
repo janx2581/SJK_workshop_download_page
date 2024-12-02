@@ -32,7 +32,9 @@ def exercise_1():
         '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
         '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
         '- *Attach the Inner Strength description*')
-        
+
+        st.markdown("_______________________")
+
     st.write(
         'Examples of what to include:')
     
@@ -106,7 +108,9 @@ def exercise_2():
         '- Questions or concerns: [e.g anticipate audience questions or areas of confusion]\n'
         '- Suggestions for improvement: [e.g. tips to make the presentation more engaging or persuassive]\n\n'
         '- *Attach your slide deck*')
-        
+
+    st.markdown("_______________________")
+
     st.write(
         'Examples of feedback areas to include:')
     
