@@ -34,22 +34,14 @@ def jan_drafting_prompt():
     st.markdown(
         '**Prompt:**\n\n'
         'I am preparing a presentation for a potential investor to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following points below. Ensure the tone is persuasive and the structure flows logically. Use these points:\n'
-        'Introduction: An overview of the Inner Strength Programme and its importance.\n' 
-        'Problem Statement: Rising mental dissatisfaction among Danish youth and the need for intervention.\n' 
-        'Goals: Improving self-worth, focus, and relationships in children.\n' 
-        'Solution: Description of the holistic Inner Strength approach and its implementation.\n' 
-        'Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
-        'Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n')
+        '- Introduction: An overview of the Inner Strength Programme and its importance.\n' 
+        '- Problem Statement: Rising mental dissatisfaction among Danish youth and the need for intervention.\n' 
+        '- Goals: Improving self-worth, focus, and relationships in children.\n' 
+        '- Solution: Description of the holistic Inner Strength approach and its implementation.\n' 
+        '- Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
+        '- Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n')
     
-    st.markdown(
-        "**Next Prompt:** Summarize this analysis (Insert the analysis)."
-    )
-    st.markdown(
-        "**Follow-Up Prompt:** How can the analysis be understood using the four models presented in the article?"
-    )
-    
-    st.write(
-        'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
+
 def exercise_2():
     st.header("Exercise 2: Write an Op-Ed")
     st.write(
