@@ -35,7 +35,7 @@ def main():
     '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
     '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
     '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
-    '**Attach the Inner Strength Presentation**')
+    '- **Attach the Inner Strength Presentation**')
     
     st.write(
         'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
