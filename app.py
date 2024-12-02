@@ -71,18 +71,48 @@ def jan_drafting_prompt():
         'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def exercise_2():
-    st.header("Exercise 2: Write an Op-Ed")
-    st.write(
-        "Use ChatGPT to write an op-ed based on the Danish Foundation Analysis 2024."
-    )
+    st.header(
+        'Exercise 2: Review a slide deck')
+
     st.markdown(
-        """
-        **Example Prompt:** I work at Kraft & Partners and need to write an op-ed for Altinget, discussing the findings of the Danish Foundation Analysis 2024.
-        - Provide 5 main points to highlight in the op-ed.
-        - Write 3 sentences for each point.
-        """
-    )
-    st.write("Try adding this in a subsequent prompt: **Write it as a complete op-ed using the provided tone-of-voice.**")
+        '**Goal:**\n\n' 
+        'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
+
+    st.markdown(
+        '**Step 1:**\n\n' 
+        'Create the prompt')
+    
+    
+    st.markdown(
+        '**Prompt:**\n\n' 
+        'I have created a draft presentation on [insert topic] for [insert audience]. Please review the slides and provide detailed feedback based on the following [insert key points below]: Use this format for your feedback:\n'
+        '- Overall feedback: [e.g. General comments on structure and tone]\n'
+        '- Slide-specific feedback: [e.g. Suggestions for improveing for each slide such as clarity, visuals or messaging]\n'
+        '- Questions or concerns: [e.g anticipate audience questions or areas of confusion]\n'
+        '- Suggestions for improvement: [e.g. tips to make the presentation more engaging or persuassive]\n\n'
+        '- **Attach your slide deck**')
+        
+    st.write(
+        'Examples of feedback areas to include:')
+    
+    st.markdown(
+    '- Effectiveness of cisual and text balance\n'
+    '- Clarity of messaging and alignment with audience needs\n'
+    '- Flow and logical structure of the presentation\n'
+    '- Recommendations for improveing engagement or persuasiveness\n')
+
+    st.markdown(
+        '**Step 2:**\n\n' 
+        'Iterate')
+    
+    st.write(
+        'Examples on how to iterate:')
+    
+    st.markdown(
+    '- "Focus on the fact that children need to feel their inner guiding light"\n'
+    '- "Make the solution paragraph more free flowing without bullet points to increase persuasiveness"\n'
+    '- "Combine the goals and solutions slides for me as well as a description of visual elements to include"\n'
+    '- "I am a great presenter, and can capture a rooms attention. Make it less wordy"\n')
 
 def jan_reviewing_prompt():
     st.header("Jan's Prompt for Reviewing")
