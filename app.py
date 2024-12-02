@@ -9,10 +9,13 @@ def exercise_1():
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.\n')
 
+    st.markdown("_______________________")
+    
     st.markdown(
         '**Download the Inner Strength Programme description:**\n\n' 
         'https://www.humanpractice.org/wp-content/uploads/2024/04/Inner-Strength-Case-website-April-2024.pdf')
 
+    st.markdown("_______________________")
     
     st.markdown(
         '**Step 1:**\n\n' 
@@ -41,6 +44,8 @@ def exercise_1():
     '- Upcoming goals (e.g. expansion to 30 schools in 2025\n'
     '- Specific asks or calls to action tailored to the audience (e.g. funding, adoption in school)\n')
 
+    st.markdown("_______________________")
+    
     st.markdown(
         '**Step 2:**\n\n' 
         'Iterate')
@@ -66,6 +71,8 @@ def jan_drafting_prompt():
         '- Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
         '- Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n\n'
         '- **Attach the Inner Strength description**')
+
+    st.markdown("_______________________")
     
     st.markdown(
         '**Iteration 1:**\n\n'
@@ -83,6 +90,8 @@ def exercise_2():
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
 
+    st.markdown("_______________________")
+    
     st.markdown(
         '**Step 1:**\n\n' 
         'Create the prompt')
@@ -105,6 +114,8 @@ def exercise_2():
     '- Clarity of messaging and alignment with audience needs\n'
     '- Flow and logical structure of the presentation\n'
     '- Recommendations for improveing engagement or persuasiveness\n')
+
+    st.markdown("_______________________")
 
     st.markdown(
         '**Step 2:**\n\n' 
@@ -131,11 +142,15 @@ def jan_reviewing_prompt():
         '- Questions or concerns: Anticipate audience questions or ares of confusion\n'
         '- Suggestions for improvement: Tips to make the presentaion more engaging or persuasive\n\n'
         '- **Attach the slide deck**')
+
+    st.markdown("_______________________")
     
     st.markdown(
         '**Prompt for feedback on specific slide:**\n\n'
         'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide. **Insert screenshot**')
 
+    st.markdown("_______________________")
+    
     st.markdown(
         '**Iteration 1:**\n\n'
         'Focus more on the persuasiveness of the slides')
