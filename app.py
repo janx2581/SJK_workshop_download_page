@@ -38,6 +38,16 @@ def main():
     '- **Attach the Inner Strength Presentation**')
     
     st.write(
+        'Example of what to include:')
+    
+    st.markdown(
+    '- Statistics on mental health challenges among Danish Youth\n'
+    '- The holistic approach (adressing children, schools, teachers, and parents)\n'
+    '- Success stories or testimonials from previous participants\n'
+    '- Upcoming goals (e.g. expansion to 30 schools in 2025\n'
+    '- Specific asks or calls to action tailored to the audience (e.g. funding, adoption in school)\n')
+    
+    st.write(
         'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
 
     # Display download buttons for each file
