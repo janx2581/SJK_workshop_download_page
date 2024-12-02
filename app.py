@@ -1,25 +1,7 @@
 import streamlit as st
 import os
 
-
-def main():
-    st.title("AI workshop Human Practice Foundation")
-
-    # Display the image
-    image_path = "kplogo_white.png"
-    if os.path.exists(image_path):
-        st.image(image_path, width=250)
-    else:
-        st.error("Image not found")
-
-    # Paths to the specific files
-    files = [
-        "Uddannelse og folkeoplysning 2022 analyse.pdf",
-        "Vidensmobilisering og vidensbrobygning – en oversigt over modeller og metoder.pdf"
-    ]
-
-    
-    
+def exercise_1():    
     st.header(
         'Exercise 1: Draft a slide deck outline introducing the Inner Strength Programme for stakeholders')
 
@@ -46,123 +28,81 @@ def main():
     '- Success stories or testimonials from previous participants\n'
     '- Upcoming goals (e.g. expansion to 30 schools in 2025\n'
     '- Specific asks or calls to action tailored to the audience (e.g. funding, adoption in school)\n')
+
+def jan_drafting_prompt():
+    st.header("Jan's Prompt for Drafting")
+    st.markdown(
+        "**Example Prompt:** I am preparing a presentation for a potential investor to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following points below. Ensure the tone is persuasive and the structure flows logically. Use these points:\n' 
+        'Introduction: An overview of the Inner Strength Programme and its importance.\n' 
+        'Problem Statement: Rising mental dissatisfaction among Danish youth and the need for intervention.\n' 
+        'Goals: Improving self-worth, focus, and relationships in children.\n' 
+        'Solution: Description of the holistic Inner Strength approach and its implementation.\n' 
+        'Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
+        'Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n')
+    )
+    st.markdown(
+        "**Next Prompt:** Summarize this analysis (Insert the analysis)."
+    )
+    st.markdown(
+        "**Follow-Up Prompt:** How can the analysis be understood using the four models presented in the article?"
+    )
     
     st.write(
         'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
-
-    # Display download buttons for each file
-    for file_path in files:
-        if os.path.exists(file_path):
-            file_name = os.path.basename(file_path)
-            button_label = f"Klik her for at downloade \n{file_name}"
-            with open(file_path, "rb") as file:
-                st.download_button(
-                    label=button_label,
-                    data=file,
-                    file_name=file_name,
-                    mime="application/pdf"
-                )
-
-    st.markdown(
-    '**Eksempel prompt:** Opsummer denne artikel med fokus på fonde (indsæt artiklen)')
-
-    st.markdown(
-    '**Næste forespørgsel:** Opsummer denne analyse (indsæt analysen)')
-
-    st.markdown(
-    '**Næste forespørgsel:** Hvordan kan analysen forstås ud fra de fire modeller præsenteret i artiklen?')
-
-    # Add a small text at the bottom of the page
-    st.markdown("_______________________")
-
-
-    st.header(
-        'Øvelse 2: Skriv kronik')
-    
+def exercise_2():
+    st.header("Exercise 2: Write an Op-Ed")
     st.write(
-        'Få ChatGPT til at skrive en kronik baseret på Fondsanalysen 2024')
-    st.write(
-        'Link til Fondsanalysen 2024: https://www.kraft-partners.dk/den-danske-fondsanalyse-2024/')
-    st.write(
-        'Link til en tidligere kronik: https://www.altinget.dk/civilsamfund/artikel/markus-bjoern-kraft-transparens-er-afgoerende-for-de-danske-fonde')
-
+        "Use ChatGPT to write an op-ed based on the Danish Foundation Analysis 2024."
+    )
     st.markdown(
-    '**Eksempel prompt:** Jeg arbejder i Kraft & Partners og skal skrive en kronik til Altinget, hvor jeg diskuterer fundene for Den Danske Fondsanalyse 2024. \n\n'
-    'Giv mig 5 hovedpointer jeg kan benytte. Giv mig derudover 3 sætninger til hver pointe, så jeg får hovedpointerne igennem på en intelligent måde \n'
-    'Det her hvad vi skriver om i Fondsanalysen:\n'
-    '(Indsæt beskrivelsen fra hjemmesiden)')
-    
-    st.markdown(
-    '**PRØV AT TILFØJ I ET EFTERFØLGENDE PROMPT**: "Skriv det til en kronik. Jeg vedhæfter en tidligere kronik, så du ved hvilken tone-of-voice jeg vil have (Indsæt kronik)"')
+        """
+        **Example Prompt:** I work at Kraft & Partners and need to write an op-ed for Altinget, discussing the findings of the Danish Foundation Analysis 2024.
+        - Provide 5 main points to highlight in the op-ed.
+        - Write 3 sentences for each point.
+        """
+    )
+    st.write("Try adding this in a subsequent prompt: **Write it as a complete op-ed using the provided tone-of-voice.**")
 
-
-    st.markdown(
-    '**PRØV AT TILFØJ I ENDNU ET EFTERFØLGENDE PROMPT**: " Lad der være lidt mere glimt i øjet i tonen i kronikken"')
-
-    
-    st.markdown("_______________________")
-
-    st.header(
-        'Øvelse 3: Opsummer disse mødenotater til et referat')
-    
+def jan_reviewing_prompt():
+    st.header("Jan's Prompt for Reviewing")
     st.write(
-        'Download disse mødenotater for at teste hvordan mødenoter kan struktureres')
+        "Summarize meeting notes into structured meeting minutes."
+    )
+    st.markdown(
+        """
+        **Example Prompt:** I have unstructured meeting notes and need them organized into clear, structured minutes. Use the following structure:
+        - Meeting Date
+        - Participants
+        - Agenda Items
+        - Key Discussions
+        - Decisions
+        - Action Points
+        - Follow-Ups
+        """
+    )
+    st.markdown(
+        "Ensure to highlight inconsistencies or missing information."
+    )
 
-    # Additional file for download
-    additional_file_path = "ClosedAI_mødenotater_mock_up.docx"
-    if os.path.exists(additional_file_path):
-        additional_file_name = os.path.basename(additional_file_path)
-        additional_button_label = f"Klik her for at downloade \n{additional_file_name}"
-        with open(additional_file_path, "rb") as additional_file:
-            st.download_button(
-                label=additional_button_label,
-                data=additional_file,
-                file_name=additional_file_name,
-                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-            )
+def main():
+    st.sidebar.title("Navigation")
+    page = st.sidebar.radio("Go to", ["Exercise 1", "Jan's Prompt for Drafting", "Exercise 2", "Jan's Prompt for Reviewing"])
+
+    st.title("AI Workshop - Human Practice Foundation")
+    image_path = "kplogo_white.png"
+    if os.path.exists(image_path):
+        st.image(image_path, width=250)
     else:
-        st.error("Additional file not found!")
+        st.error("Logo not found.")
 
-    st.markdown('''
-**EKSEMPEL PROMPT**: 
-
-Jeg har nogle ustrukturerede mødenotater, som jeg gerne vil have organiseret i et klart og struktureret format. Formålet er at få en oversigt over, hvem der har sagt hvad, beslutninger, og hvilke action points der skal tages. Jeg vedhæfter mødenotaterne. Gør det derudover klart, hvis der er uoverensstemmelser i mødenotaterne eller hvis du mangler mere information.
-
-Brug nedenstående struktur til at omdanne notaterne:
-
-Strukturerede Mødenotater:
-
-**Mødedato:** [Indsæt dato]  
-**Deltagere:** [Indsæt navne på deltagere]  
-
-1. **Dagsorden og emner**  
-Kort oversigt over mødeemner og diskussionspunkter.
-
-2. **Uddybning af hvad der blev sagt under hvert punkt**  
-
-3. **Beslutninger**  
-Beslutninger truffet under mødet.
-
-- **Beslutning 1:** [Beskrivelse af beslutningen]  
-- **Beslutning 2:** [Beskrivelse af beslutningen]
-
-4. **Action Points**
-
-| Action Point | Ansvarlig | Deadline | Status |
-|--------------|-----------|----------|--------|
-| [Beskrivelse af action point] | [Navn på ansvarlig] | [Dato] | [Status] |
-| [Beskrivelse af action point] | [Navn på ansvarlig] | [Dato] | [Status] |
-
-5. **Opfølgning**  
-Eventuelle opfølgningspunkter fra tidligere møder eller som er blevet drøftet under dette møde.
-
-6. **Uklarheder og hvor der er behov for mere information**
-''')
-
-
-    st.markdown("_______________________")
-    st.markdown("_Høegh Consulting_")
-
+    if page == "Exercise 1":
+        exercise_1()
+    elif page == "Jan's Prompt for Drafting":
+        jan_drafting_prompt()
+    elif page == "Exercise 2":
+        exercise_2()
+    elif page == "Jan's Prompt for Reviewing":
+        jan_reviewing_prompt()
 
 if __name__ == "__main__":
     main()
