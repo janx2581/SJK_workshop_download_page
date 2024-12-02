@@ -94,9 +94,8 @@ def exercise_2():
 
     st.markdown("_______________________")
     
-    st.markdown(
-        '**Step 1:**\n\n' 
-        'Create the prompt')
+    st.header(
+        'Step 1 - create the prompt')
     
     
     st.markdown(
@@ -119,9 +118,8 @@ def exercise_2():
 
     st.markdown("_______________________")
 
-    st.markdown(
-        '**Step 2:**\n\n' 
-        'Get feedback on individiual slide')
+    st.header(
+        'Step 2 - Get feedback on individiual slide')
     
     st.write(
         'You can get feedback on the visuals of a single slide by uploading a screenshot')
