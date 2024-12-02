@@ -33,7 +33,7 @@ def exercise_1():
         '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
         '- *Attach the Inner Strength description*')
 
-        st.markdown("_______________________")
+    st.markdown("_______________________")
 
     st.write(
         'Examples of what to include:')
