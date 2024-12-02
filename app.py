@@ -8,6 +8,11 @@ def exercise_1():
     st.markdown(
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.\n')
+
+    st.markdown(
+        '**Step 1:**\n\n' 
+        'Create the prompt')
+    
     
     st.markdown(
         '**Prompt:**\n\n' 
@@ -30,6 +35,19 @@ def exercise_1():
     '- Success stories or testimonials from previous participants\n'
     '- Upcoming goals (e.g. expansion to 30 schools in 2025\n'
     '- Specific asks or calls to action tailored to the audience (e.g. funding, adoption in school)\n')
+
+    st.markdown(
+        '**Step 2:**\n\n' 
+        'Iterate')
+    
+    st.write(
+        'Examples on how to iterate:')
+    
+    st.markdown(
+    '- "Focus on the fact that children need to feel their inner guiding light"\n'
+    '- "Make the solution paragraph more free flowing without bullet points to increase persuasiveness"\n'
+    '- "Combine the goals and solutions slides for me as well as a description of visual elements to include"\n'
+    '- "I am a great presenter, and can capture a room's attention. Make it less wordy"\n')
 
 def jan_drafting_prompt():
     st.header("Jan's Prompt for Drafting")
