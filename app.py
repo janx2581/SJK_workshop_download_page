@@ -61,6 +61,11 @@ def jan_drafting_prompt():
         '- Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
         '- Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n\n'
         '- **Attach the Inner Strength Presentation**')
+    
+    st.markdown(
+        '**Iteration:**\n\n'
+        'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n'
+        'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def exercise_2():
     st.header("Exercise 2: Write an Op-Ed")
