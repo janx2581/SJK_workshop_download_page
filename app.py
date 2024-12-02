@@ -9,9 +9,6 @@ def exercise_1():
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.\n')
     
-    st.write(
-        'Goal: To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.')
-
     st.markdown(
         '**Prompt:**\n\n' 
         'I am preparing a presentation for [school administrators/donors/teachers] to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following [insert points below]. Ensure the tone is [formal, persuasive, or informative] and the structure flows logically. Use this format:\n'
