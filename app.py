@@ -32,7 +32,7 @@ def exercise_1():
 def jan_drafting_prompt():
     st.header("Jan's Prompt for Drafting")
     st.markdown(
-        "**Example Prompt:** I am preparing a presentation for a potential investor to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following points below. Ensure the tone is persuasive and the structure flows logically. Use these points:\n' 
+        '**Prompt:** I am preparing a presentation for [school administrators/donors/teachers] to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following [insert points below]. Ensure the tone is [formal, persuasive, or informative] and the structure flows logically. Use this format: \n\n'
         'Introduction: An overview of the Inner Strength Programme and its importance.\n' 
         'Problem Statement: Rising mental dissatisfaction among Danish youth and the need for intervention.\n' 
         'Goals: Improving self-worth, focus, and relationships in children.\n' 
