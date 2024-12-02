@@ -114,25 +114,26 @@ def exercise_2():
         '- **Insert a screenshot of your slide')
 
 def jan_reviewing_prompt():
-    st.header("Jan's Prompt for Reviewing")
-    st.write(
-        "Summarize meeting notes into structured meeting minutes."
-    )
+    st.header("Jan's Prompt for reviewing")
     st.markdown(
-        """
-        **Example Prompt:** I have unstructured meeting notes and need them organized into clear, structured minutes. Use the following structure:
-        - Meeting Date
-        - Participants
-        - Agenda Items
-        - Key Discussions
-        - Decisions
-        - Action Points
-        - Follow-Ups
-        """
-    )
+        '**Prompt:**\n\n'
+        'I have created a draft presentation for a pitch for potential investors. Please review the slides and provide detailed feedback based on the following: \n'
+        '- Clarity of messaging and alignment with audience needs\n' 
+        '- Flow and logical structure\n' 
+        '- Recommendations for improving persuasiveness and effectiveness of visual and text balance\n\n' 
+        'Use this format for your feedback\n' 
+        '- Overall feedback: General comments on structure and tone\n' 
+        '- Questions or concerns: Anticipate audience questions or ares of confusion\n'
+        '- Suggestions for improvement: Tips to make the presentaion more engaging or persuasive\n\n'
+        '- **Attach the slide deck**')
+    
     st.markdown(
-        "Ensure to highlight inconsistencies or missing information."
-    )
+        '**Iteration 1:**\n\n'
+        'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n')
+    
+    st.markdown(
+    '**Iteration 2:**\n\n'
+        'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def main():
     st.sidebar.title("Navigation")
