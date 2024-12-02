@@ -36,7 +36,7 @@ def exercise_1():
     st.markdown("_______________________")
 
     st.write(
-        'Examples of what to include:')
+        'Examples of what to include in the prompt:')
     
     st.markdown(
     '- Statistics on mental health challenges among Danish Youth\n'
@@ -130,8 +130,7 @@ def exercise_2():
     
     st.markdown(
     '**Prompt:**\n\n'
-        '- "Give me feedback on this specific slide. Focus on the visual impact and structure of the slide"\n\n'
-        '- *Insert a screenshot of your slide*')
+        '- "Give me feedback on this specific slide. Focus on the visual impact and structure of the slide" *Insert a screenshot of your slide*')
 
 def jan_reviewing_prompt():
     st.header("Jan's Prompt for reviewing")
