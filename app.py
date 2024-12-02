@@ -39,7 +39,7 @@ def jan_drafting_prompt():
         'Solution: Description of the holistic Inner Strength approach and its implementation.\n' 
         'Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
         'Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n')
-    )
+    
     st.markdown(
         "**Next Prompt:** Summarize this analysis (Insert the analysis)."
     )
