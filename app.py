@@ -47,7 +47,7 @@ def exercise_1():
     '- "Focus on the fact that children need to feel their inner guiding light"\n'
     '- "Make the solution paragraph more free flowing without bullet points to increase persuasiveness"\n'
     '- "Combine the goals and solutions slides for me as well as a description of visual elements to include"\n'
-    '- "I am a great presenter, and can capture a room's attention. Make it less wordy"\n')
+    '- "I am a great presenter, and can capture a rooms attention. Make it less wordy"\n')
 
 def jan_drafting_prompt():
     st.header("Jan's Prompt for Drafting")
