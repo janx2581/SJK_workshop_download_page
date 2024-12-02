@@ -57,10 +57,10 @@ def exercise_1():
     '- "Focus on the fact that children need to feel their inner guiding light"\n'
     '- "Make the solution paragraph more free flowing without bullet points to increase persuasiveness"\n'
     '- "Combine the goals and solutions slides for me as well as a description of visual elements to include"\n'
-    '- "I am a great presenter, and can capture a rooms attention. Make it less wordy"\n')
+    "- "I am a great presenter, and can capture a room's attention. Make it less wordy"\n")
 
 def jan_drafting_prompt():
-    st.header("Jan's Prompt for Drafting")
+    st.header("My prompt for drafting")
     st.markdown(
         '**Prompt:**\n\n'
         'I am preparing a presentation for a potential investor to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following points below. Ensure the tone is persuasive and the structure flows logically. Use these points:\n'
@@ -133,7 +133,7 @@ def exercise_2():
         '- "Give me feedback on this specific slide. Focus on the visual impact and structure of the slide" *Insert a screenshot of your slide*')
 
 def jan_reviewing_prompt():
-    st.header("Jan's Prompt for reviewing")
+    st.header("My prompt for reviewing")
     st.markdown(
         '**Prompt:**\n\n'
         'I have created a draft presentation for a pitch for potential investors. Please review the slides and provide detailed feedback based on the following: \n'
@@ -168,7 +168,7 @@ def jan_reviewing_prompt():
     
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Exercise 1", "Jan's Prompt for Drafting", "Exercise 2", "Jan's Prompt for Reviewing"])
+    page = st.sidebar.radio("Go to", ["Exercise 1", "My prompt for drafting", "Exercise 2", "My prompt for reviewing"])
 
     st.title("AI Workshop - Human Practice Foundation")
     image_path = "logo_HPF.png"
@@ -179,11 +179,11 @@ def main():
 
     if page == "Exercise 1":
         exercise_1()
-    elif page == "Jan's Prompt for Drafting":
+    elif page == "My prompt for drafting":
         jan_drafting_prompt()
     elif page == "Exercise 2":
         exercise_2()
-    elif page == "Jan's Prompt for Reviewing":
+    elif page == "My prompt for reviewing":
         jan_reviewing_prompt()
 
 if __name__ == "__main__":
