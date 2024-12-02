@@ -158,13 +158,13 @@ def jan_reviewing_prompt():
         'Iteration 1')
 
     st.markdown(
-        'Focus more on the persuasiveness of the slides')
+        '"Focus more on the persuasiveness of the slides"')
 
     st.header(
         'Iteration 2')
     
     st.markdown(
-        'What would be a better argument?')
+        '"What would be a better argument?"')
     
 def main():
     st.sidebar.title("Navigation")
