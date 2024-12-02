@@ -63,8 +63,11 @@ def jan_drafting_prompt():
         '- **Attach the Inner Strength Presentation**')
     
     st.markdown(
-        '**Iteration:**\n\n'
-        'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n'
+        '**Iteration 1:**\n\n'
+        'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n')
+    
+    st.markdown(
+    '**Iteration 2:**\n\n'
         'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def exercise_2():
