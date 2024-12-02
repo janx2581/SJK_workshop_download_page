@@ -103,16 +103,15 @@ def exercise_2():
 
     st.markdown(
         '**Step 2:**\n\n' 
-        'Iterate')
+        'Get feedback on individiual slide')
     
     st.write(
-        'Examples on how to iterate:')
+        'You can get feedback on the visuals of a single slide by uploading a screenshot')
     
     st.markdown(
-    '- "Focus on the fact that children need to feel their inner guiding light"\n'
-    '- "Make the solution paragraph more free flowing without bullet points to increase persuasiveness"\n'
-    '- "Combine the goals and solutions slides for me as well as a description of visual elements to include"\n'
-    '- "I am a great presenter, and can capture a rooms attention. Make it less wordy"\n')
+    '**Prompt:**\n\n'
+        '- Give me feedback on this specific slide. Focus on the visual impact and structure of the slide\n\n'
+        '- **Insert a screenshot of your slide')
 
 def jan_reviewing_prompt():
     st.header("Jan's Prompt for Reviewing")
