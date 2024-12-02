@@ -31,7 +31,7 @@ def exercise_1():
         '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
         '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
         '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
-        '- **Attach the Inner Strength description**')
+        '- *Attach the Inner Strength description*')
         
     st.write(
         'Examples of what to include:')
@@ -68,7 +68,7 @@ def jan_drafting_prompt():
         '- Solution: Description of the holistic Inner Strength approach and its implementation.\n' 
         '- Impact: Results from pilot projects and testimonials from stakeholders as well as support from A.P Møller Foundation of DKK 15 million.\n' 
         '- Call to Action: Your support can enhance a digital learning platform, which is crusial for the programmes success. Asking for a donation of 200.000 DKK.\n\n'
-        '- **Attach the Inner Strength description**')
+        '- *Attach the Inner Strength description*')
 
     st.markdown("_______________________")
 
@@ -105,7 +105,7 @@ def exercise_2():
         '- Slide-specific feedback: [e.g. Suggestions for improveing for each slide such as clarity, visuals or messaging]\n'
         '- Questions or concerns: [e.g anticipate audience questions or areas of confusion]\n'
         '- Suggestions for improvement: [e.g. tips to make the presentation more engaging or persuassive]\n\n'
-        '- **Attach your slide deck**')
+        '- *Attach your slide deck*')
         
     st.write(
         'Examples of feedback areas to include:')
@@ -127,7 +127,7 @@ def exercise_2():
     st.markdown(
     '**Prompt:**\n\n'
         '- "Give me feedback on this specific slide. Focus on the visual impact and structure of the slide"\n\n'
-        '- **Insert a screenshot of your slide**')
+        '- *Insert a screenshot of your slide*')
 
 def jan_reviewing_prompt():
     st.header("Jan's Prompt for reviewing")
@@ -141,13 +141,13 @@ def jan_reviewing_prompt():
         '- Overall feedback: General comments on structure and tone\n' 
         '- Questions or concerns: Anticipate audience questions or ares of confusion\n'
         '- Suggestions for improvement: Tips to make the presentaion more engaging or persuasive\n\n'
-        '- **Attach the slide deck**')
+        '- *Attach the slide deck*')
 
     st.markdown("_______________________")
     
     st.markdown(
         '**Prompt for feedback on specific slide:**\n\n'
-        'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide. **Insert screenshot**')
+        'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide. *Insert screenshot*')
 
     st.markdown("_______________________")
     
