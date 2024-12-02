@@ -18,8 +18,7 @@ def exercise_1():
     st.markdown("_______________________")
     
     st.header(
-        'Step 1\n' 
-        'Create the prompt')
+        'Step 1 - create the prompt')
     
     
     st.markdown(
@@ -46,9 +45,8 @@ def exercise_1():
 
     st.markdown("_______________________")
     
-    st.markdown(
-        '**Step 2:**\n\n' 
-        'Iterate')
+    st.header(
+        'Step 2 - iterate')
     
     st.write(
         'Examples on how to iterate:')
@@ -73,13 +71,15 @@ def jan_drafting_prompt():
         '- **Attach the Inner Strength description**')
 
     st.markdown("_______________________")
-    
+
+    st.header(
+        'Iteration 1'
     st.markdown(
-        '**Iteration 1:**\n\n'
         'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n')
-    
+
+    st.header(
+        'Iteration 2'
     st.markdown(
-    '**Iteration 2:**\n\n'
         'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def exercise_2():
