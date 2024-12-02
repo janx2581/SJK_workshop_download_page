@@ -17,8 +17,8 @@ def exercise_1():
 
     st.markdown("_______________________")
     
-    st.markdown(
-        '**Step 1:**\n\n' 
+    st.header(
+        'Step 1\n' 
         'Create the prompt')
     
     
