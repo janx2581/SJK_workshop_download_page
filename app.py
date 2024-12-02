@@ -128,8 +128,9 @@ def jan_reviewing_prompt():
         '- **Attach the slide deck**')
     
     st.markdown(
-        '**Iteration 1:**\n\n'
-        'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n')
+        '**Feedback on specific slide 1:**\n\n'
+        'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide\n\n'
+        '- **Insert screenshot**')
     
     st.markdown(
     '**Iteration 2:**\n\n'
