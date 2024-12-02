@@ -38,7 +38,7 @@ def main():
     '- **Attach the Inner Strength Presentation**')
     
     st.write(
-        'Example of what to include:')
+        'Examples of what to include:')
     
     st.markdown(
     '- Statistics on mental health challenges among Danish Youth\n'
