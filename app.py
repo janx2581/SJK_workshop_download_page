@@ -34,7 +34,7 @@ def main():
     '- Solution: [e.g., Description of the holistic Inner Strength approach and its implementation].\n'
     '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
     '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
-    '- Call to Action: [e.g., Why this audience’s support is crucial].\n'
+    '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
     '**Attach the Inner Strength Presentation**')
     
     st.write(
