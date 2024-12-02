@@ -171,7 +171,7 @@ def main():
     page = st.sidebar.radio("Go to", ["Exercise 1", "Jan's Prompt for Drafting", "Exercise 2", "Jan's Prompt for Reviewing"])
 
     st.title("AI Workshop - Human Practice Foundation")
-    image_path = "HPF_logo.jpeg"
+    image_path = "logo_HPF.png"
     if os.path.exists(image_path):
         st.image(image_path, width=250)
     else:
