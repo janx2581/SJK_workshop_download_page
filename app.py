@@ -10,7 +10,7 @@ def exercise_1():
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.\n')
 
     st.markdown(
-        '**The Inner Strength Programme description:**\n\n' 
+        '**Download the Inner Strength Programme description:**\n\n' 
         'https://www.humanpractice.org/wp-content/uploads/2024/04/Inner-Strength-Case-website-April-2024.pdf')
 
     
