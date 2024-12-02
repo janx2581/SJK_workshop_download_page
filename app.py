@@ -128,9 +128,17 @@ def jan_reviewing_prompt():
         '- **Attach the slide deck**')
     
     st.markdown(
-        '**Feedback on specific slide 1:**\n\n'
+        '**Prompt for feedback on specific slide:**\n\n'
         'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide\n\n'
         '- **Insert screenshot**')
+
+    st.markdown(
+        '**Iteration 1:**\n\n'
+        'Focus more on the persuasiveness of the slides')
+    
+    st.markdown(
+    '**Iteration 2:**\n\n'
+        'What would be a better argument?')
     
 def main():
     st.sidebar.title("Navigation")
