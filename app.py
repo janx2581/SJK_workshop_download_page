@@ -114,7 +114,7 @@ def exercise_2():
     '- Effectiveness of cisual and text balance\n'
     '- Clarity of messaging and alignment with audience needs\n'
     '- Flow and logical structure of the presentation\n'
-    '- Recommendations for improveing engagement or persuasiveness\n')
+    '- Recommendations for improving engagement or persuasiveness\n')
 
     st.markdown("_______________________")
 
@@ -151,12 +151,16 @@ def jan_reviewing_prompt():
 
     st.markdown("_______________________")
     
+    st.header(
+        'Iteration 1')
+
     st.markdown(
-        '**Iteration 1:**\n\n'
         'Focus more on the persuasiveness of the slides')
+
+    st.header(
+        'Iteration 2')
     
     st.markdown(
-    '**Iteration 2:**\n\n'
         'What would be a better argument?')
     
 def main():
