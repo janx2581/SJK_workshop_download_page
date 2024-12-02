@@ -73,8 +73,9 @@ def jan_drafting_prompt():
     st.markdown("_______________________")
 
     st.header(
-        'Iteration 1'
-    st.markdown(
+        'Iteration 1')
+    
+        st.markdown(
         'Combine the Goals and solution to a single slide and write out the slides for me as well as a description of visual elements \n')
 
     st.header(
