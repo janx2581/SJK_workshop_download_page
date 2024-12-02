@@ -5,21 +5,25 @@ def exercise_1():
     st.header(
         'Exercise 1: Draft a slide deck outline introducing the Inner Strength Programme for stakeholders')
 
+    st.markdown(
+        '**Goal:**\n\n' 
+        'To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.\n')
+    
     st.write(
         'Goal: To create a flexible and reuseable prompt, Human Practice Foundation can use to draft a deck for the Inner Strength Programme.')
 
     st.markdown(
-    '**Prompt:**\n\n' 
-    'I am preparing a presentation for [school administrators/donors/teachers] to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following [insert points below]. Ensure the tone is [formal, persuasive, or informative] and the structure flows logically. Use this format:\n'
-    '- Introduction: [e.g., Overview of the Inner Strength Programme and its importance]\n'
-    '- Problem Statement: [e.g., Rising mental dissatisfaction among Danish youth and the need for intervention].\n'
-    '- Goals: [e.g., Improving self-worth, focus, and relationships in children].\n'
-    '- Solution: [e.g., Description of the holistic Inner Strength approach and its implementation].\n'
-    '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
-    '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
-    '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
-    '- **Attach the Inner Strength Presentation**')
-    
+        '**Prompt:**\n\n' 
+        'I am preparing a presentation for [school administrators/donors/teachers] to introduce the Inner Strength Programme, an initiative by the Human Practice Foundation. Please create a well-structured and engaging presentation outline that covers the following [insert points below]. Ensure the tone is [formal, persuasive, or informative] and the structure flows logically. Use this format:\n'
+        '- Introduction: [e.g., Overview of the Inner Strength Programme and its importance]\n'
+        '- Problem Statement: [e.g., Rising mental dissatisfaction among Danish youth and the need for intervention].\n'
+        '- Goals: [e.g., Improving self-worth, focus, and relationships in children].\n'
+        '- Solution: [e.g., Description of the holistic Inner Strength approach and its implementation].\n'
+        '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
+        '- Impact: [e.g., Results from pilot projects and testimonials from stakeholders].\n'
+        '- Call to Action: [e.g., Why this audience’s support is crucial].\n\n'
+        '- **Attach the Inner Strength Presentation**')
+        
     st.write(
         'Examples of what to include:')
     
