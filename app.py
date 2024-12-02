@@ -132,10 +132,6 @@ def jan_reviewing_prompt():
         'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide\n\n'
         '- **Insert screenshot**')
     
-    st.markdown(
-    '**Iteration 2:**\n\n'
-        'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
-
 def main():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Exercise 1", "Jan's Prompt for Drafting", "Exercise 2", "Jan's Prompt for Reviewing"])
