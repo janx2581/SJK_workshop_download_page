@@ -129,8 +129,7 @@ def jan_reviewing_prompt():
     
     st.markdown(
         '**Prompt for feedback on specific slide:**\n\n'
-        'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide\n\n'
-        '- **Insert screenshot**')
+        'Give me feedback on this specific slide. Focus on the visual impact and structure of the slide. **Insert screenshot**')
 
     st.markdown(
         '**Iteration 1:**\n\n'
