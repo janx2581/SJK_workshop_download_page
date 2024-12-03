@@ -99,7 +99,7 @@ def exercise_2():
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
 
     st.write(
-        'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
+        'If you dont have your own slide deck, you can download my example below')
 
     # Display download buttons for each file
     for file_path in files:
