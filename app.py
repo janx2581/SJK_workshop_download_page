@@ -99,25 +99,6 @@ def exercise_2():
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
     
     st.markdown("_______________________")
-
-    st.write(
-        'If you dont have your own slide deck, you can download my example below')
-
-    # Display download buttons for each file
-    for file_path in files:
-        if os.path.exists(file_path):
-            file_name = os.path.basename(file_path)
-            button_label = f"Click here to download: \n{file_name}"
-            with open(file_path, "rb") as file:
-                st.download_button(
-                    label=button_label,
-                    data=file,
-                    file_name=file_name,
-                    mime="application/pdf"
-                )
-
-    
-    st.markdown("_______________________")
     
     st.header(
         'Step 1 - create the prompt')
