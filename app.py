@@ -87,6 +87,12 @@ def jan_drafting_prompt():
         'I am a great presenter, and I can capture a rooms attention. Make it less wordy\n')
 
 def exercise_2():
+    # Paths to the specific files
+    files = [
+        "Uddannelse og folkeoplysning 2022 analyse.pdf",
+        "Vidensmobilisering og vidensbrobygning – en oversigt over modeller og metoder.pdf"
+    ]
+
     st.header(
         'Exercise 2: Review a slide deck')
 
@@ -94,6 +100,23 @@ def exercise_2():
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
 
+    st.write(
+        'Download disse to filer og find ud af hvordan de fire modeller i artiklen kan beskrive fundene i analysen.')
+
+    # Display download buttons for each file
+    for file_path in files:
+        if os.path.exists(file_path):
+            file_name = os.path.basename(file_path)
+            button_label = f"Klik her for at downloade \n{file_name}"
+            with open(file_path, "rb") as file:
+                st.download_button(
+                    label=button_label,
+                    data=file,
+                    file_name=file_name,
+                    mime="application/pdf"
+                )
+
+    
     st.markdown("_______________________")
     
     st.header(
