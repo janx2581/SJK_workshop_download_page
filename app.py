@@ -89,7 +89,7 @@ def jan_drafting_prompt():
 def exercise_2():
     # Paths to the specific files
     files = [
-        "PPT_example_HPF.pptx]
+        "PPT_example_HPF.pptx"]
 
     st.header(
         'Exercise 2: Review a slide deck')
