@@ -105,7 +105,7 @@ def exercise_2():
     for file_path in files:
         if os.path.exists(file_path):
             file_name = os.path.basename(file_path)
-            button_label = f"Click here to download my slide deck example \n{file_name}"
+            button_label = f"Click here to download: \n{file_name}"
             with open(file_path, "rb") as file:
                 st.download_button(
                     label=button_label,
