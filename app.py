@@ -97,6 +97,8 @@ def exercise_2():
     st.markdown(
         '**Goal:**\n\n' 
         'To create a flexible and reuseable prompt, Human Practice Foundation can use to review a deck for the Inner Strength Programme\n')
+    
+    st.markdown("_______________________")
 
     st.write(
         'If you dont have your own slide deck, you can download my example below')
