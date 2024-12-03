@@ -89,9 +89,7 @@ def jan_drafting_prompt():
 def exercise_2():
     # Paths to the specific files
     files = [
-        "Uddannelse og folkeoplysning 2022 analyse.pdf",
-        "Vidensmobilisering og vidensbrobygning – en oversigt over modeller og metoder.pdf"
-    ]
+        "PPT_example_HPF.pptx]
 
     st.header(
         'Exercise 2: Review a slide deck')
@@ -107,7 +105,7 @@ def exercise_2():
     for file_path in files:
         if os.path.exists(file_path):
             file_name = os.path.basename(file_path)
-            button_label = f"Klik her for at downloade \n{file_name}"
+            button_label = f"Click here to download my slide deck example \n{file_name}"
             with open(file_path, "rb") as file:
                 st.download_button(
                     label=button_label,
